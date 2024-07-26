@@ -34,9 +34,9 @@
         <a href="#contact" class="btn">Заказать химчистку</a>
       </div>
       <ul class="sci">
-        <li><a href="https://t.me/@"><img src="telegram.png"></a></li>
-        <li><a href="viber://chat?number=%2B37529"><img src="viber.png"></a></li>
-        <li><a href="https://www.instagram.com/"><img src="instagram.png"></a></li>
+        <li><a href="https://t.me/@"><img src="telegram.png" alt="Телегармм для заказа химчистки"></a></li>
+        <li><a href="viber://chat?number=%2B37529"><img src="viber.png" alt="Вайбер для заказа химчистки"></a></li>
+        <li><a href="https://www.instagram.com/"><img src="instagram.png" alt="Инстаграм для заказа химчистки"></a></li>
       </ul>
     </div>
   </section>
@@ -57,7 +57,7 @@
         </ul>
       </div>
       <div class="imgBx">
-        <img src="image.jpg" alt="Где мы химчистим мебель">
+        <img src="image.webp" alt="Где мы химчистим мебель">
       </div>
     </div>
   </section>
@@ -225,7 +225,7 @@
       </div>
       <div class="workBx">
         <div class="imgBx">
-          <img src="13.jpeg" alt="Хим чистка - образец работы">
+          <img src="13.webp" alt="Хим чистка - образец работы">
         </div>
         <div class="textBx">
           <h3>Стоимость 35,00 руб</h3>
@@ -311,8 +311,10 @@
     }
 
     async function sendMessage() {
-      const token = '5562126487:AAGqX2TBd3toX15OgSCQ2yW55RNfgtBWQko';
-      const chat_id = '-1001794221917';
+      // const token = '5562126487:AAGqX2TBd3toX15OgSCQ2yW55RNfgtBWQko';
+      // const chat_id = '-1001794221917';
+      const token = '7382126690:AAFBeSqyErs90j8Nja-Q37sLwQNEb7EL7i8';
+      const chat_id = '-1002202534823';
       const uri_api = `https://api.telegram.org/bot${token}/sendMessage`;
 
       const name = document.getElementById('name').value;
